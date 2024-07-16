@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.mulish-normal {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+/* share style  */
+.width{
+    max-width: 1170px;
+    margin: 10px auto;
+}
+.orange-color{
+    color: #FF5400;
+}
+
+/* header and nav bar style  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: #424247;
+    font-weight: 700;
+    font-size: 1.02rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 55px;
+    margin-right: 10px;
+}
+/* banner section style  */
+.banner{
+    background-image: linear-gradient(rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 106px;
+    padding-bottom: 106px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 16px;
+}
+.banner-content{
+    max-width: 800px;
+    color: white;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 4rem;
+}
+.banner-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 25px 100px 50px;
+}
+.banner-search-container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 16px 16px;
+}
+.search-form{
+    display: flex;
+    justify-content: space-evenly;
+}
